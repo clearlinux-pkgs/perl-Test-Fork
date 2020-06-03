@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Fork
 Version  : 0.02
-Release  : 3
+Release  : 4
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Summary  : test code which forks
@@ -73,4 +73,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Fork.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Fork.pm
