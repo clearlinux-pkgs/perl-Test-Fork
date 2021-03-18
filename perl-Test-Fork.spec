@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Fork
 Version  : 0.02
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Summary  : test code which forks
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-Test-Fork-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Module::Build)
 
 %description
 No detailed description available
@@ -73,4 +74,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Test/Fork.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Test/Fork.pm
