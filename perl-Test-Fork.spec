@@ -5,7 +5,7 @@
 #
 Name     : perl-Test-Fork
 Version  : 0.02
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/Test-Fork-0.02.tar.gz
 Summary  : test code which forks
